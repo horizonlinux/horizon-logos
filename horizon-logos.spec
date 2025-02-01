@@ -8,7 +8,7 @@ Provides:	gnome-logos = %{version}-%{release}
 Provides:	system-logos = %{version}-%{release}
 BuildArch:	noarch
 BuildRequires:	hardlink
-Source:https://raw.github.com/horizonlinux/horizon-logos/main/horizon-logos-%{version}.tar.gz
+Source0:	https://raw.github.com/horizonlinux/horizon-logos/main/horizon-logos-%{version}.tar.gz
 %if ! 0%{?eln}
 # For _kde4_* macros:
 BuildRequires:	kde4-macros(api)
