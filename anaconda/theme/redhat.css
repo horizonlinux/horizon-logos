@@ -14,7 +14,7 @@
     background-color: @horizon;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top left;
+    background-position: bottom left;
 }
 
 /* Add a logo to the sidebar */
