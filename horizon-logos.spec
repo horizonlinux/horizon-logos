@@ -276,7 +276,7 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %dir %{_datadir}/ipa/modern-ui/assets
 %dir %{_datadir}/ipa/modern-ui/assets/images
 
-%files -n centos-backgrounds
+%files -n horizon-backgrounds
 %license COPYING CC-BY-2.0 GPLv3
 %{_datadir}/backgrounds/*
 %{_datadir}/gnome-background-properties/*
