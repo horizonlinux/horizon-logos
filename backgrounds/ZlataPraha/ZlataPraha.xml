@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Zlata Praha / Golden Prague</name>
+        <name xml:lang="en">Golden Prague</name>
+        <name xml:lang="en_UK">Golden Prague</name>
+        <name xml:lang="en_US">Golden Prague</name>
+        <name xml:lang="cs">Zlatá Praha</name>
+        <name xml:lang="pl">Złota Praga</name>
+        <filename>/usr/share/backgrounds/ZlataPraha/ZlataPraha.jpg</filename>
+        <filename-dark>/usr/share/backgrounds/ZlataPraha/ZlataPraha.jpg</filename-dark>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#000000</pcolor>
+        <scolor>#000000</scolor>
+    </wallpaper>
+</wallpapers>
