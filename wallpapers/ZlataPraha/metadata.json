@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Roman Boed"
+            }
+        ],
+        "Id": "ZlataPraha",
+        "License": "CC BY 2.0",
+        "Name": "Zlata Praha / Golden Prague",
+		"Name[en]": "Golden Prague",
+		"Name[en_UK]": "Golden Prague",
+		"Name[en_US]": "Golden Prague",
+		"Name[cs]": "Zlatá Praha",
+		"Name[pl]": "Złota Praga"
+		
+    }
+}

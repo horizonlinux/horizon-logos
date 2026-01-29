@@ -1,0 +1,15 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Radek Kucharski"
+            }
+        ],
+        "Id": "WarsawBlueHour",
+        "License": "CC BY 2.0",
+        "Name": "Warsaw Blue Hour",
+		"Name[cs]": "Varšavská modrá hodina",
+		"Name[pl]": "Warszawska błękitna godzina"
+		
+    }
+}
