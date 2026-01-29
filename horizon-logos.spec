@@ -7,6 +7,7 @@ Group:      System Environment/Base
 License:    GPLv3 AND CC-BY-2.0
 URL:        https://github.com/horizonlinux/horizon-logos
 Source0:    https://github.com/horizonlinux/horizon-logos/archive/refs/tags/100.4.tar.gz
+Source1:    fedora-logo.ico
 
 Obsoletes:  centos-logos < 90.4-1
 Provides:   system-logos = %{version}-%{release}
