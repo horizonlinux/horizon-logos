@@ -74,12 +74,12 @@ Horizon-related desktop backgrounds
 
 %install
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/backgrounds/ZlataPraha/
-for i in backgrounds/ZlataPraha/*.png backgrounds/ZlataPraha/*.jpg; do
+for i in backgrounds/ZlataPraha/*.jpg; do
   install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/backgrounds/ZlataPraha/
 done
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/backgrounds/WarsawBlueHour/
-for i in backgrounds/WarsawBlueHour/*.png backgrounds/WarsawBlueHour/*.jpg; do
+for i in backgrounds/WarsawBlueHour/*.jpg; do
   install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/backgrounds/WarsawBlueHour/
 done
 
