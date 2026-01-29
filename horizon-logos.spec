@@ -93,8 +93,16 @@ for i in wallpapers/WarsawBlueHour/*; do
   install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/
 done
 
-mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/images
-mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/images
+for i in wallpapers/ZlataPraha/contents/*.jpg; do
+  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/backgrounds/ZlataPraha/contents/
+done
+
+for i in wallpapers/WarsawBlueHour/contents/*.jpg; do
+  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/backgrounds/WarsawBlueHour/contents/
+done
+
+mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/images/
+mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/images/
 ln -s $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/WarsawBlueHour.jpg $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/images/4725x2658.jpg
 ln -s $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/ZlataPraha.jpg $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/images/5755x3369.jpg
 
