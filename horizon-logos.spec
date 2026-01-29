@@ -18,7 +18,8 @@ Source9:    testpage
 Source10:   wallpapers
 Source11:   fedora-logo.ico
 Source12:   CC-BY-2.0
-Source13:   COPYING
+Source13:   GPLv3
+Source14:   COPYING
 
 Obsoletes:  centos-logos < 90.4-1
 Provides:   system-logos = %{version}-%{release}
@@ -202,7 +203,7 @@ fi
 gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 %files
-%license COPYING CC-BY-2.0
+%license COPYING CC-BY-2.0 GPLv3
 %config(noreplace) %{_sysconfdir}/favicon.png
 %{_datadir}/glib-2.0/schemas/*.override
 %{_datadir}/firstboot/themes/fedora-%{codename}/
@@ -253,13 +254,13 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %dir %{_datadir}/wallpapers/
 
 %files httpd
-%license COPYING CC-BY-2.0
+%license COPYING CC-BY-2.0 GPLv3
 %{_datadir}/pixmaps/poweredby.png
 %{_datadir}/testpage
 %{_datadir}/testpage/index.html
 
 %files ipa
-%license COPYING CC-BY-2.0
+%license COPYING CC-BY-2.0 GPLv3
 %{_datadir}/ipa/ui/images/*
 # we multi-own these directories, so as not to require the packages that
 # provide them, thereby dragging in excess dependencies.
@@ -276,7 +277,7 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %dir %{_datadir}/ipa/modern-ui/assets/images
 
 %files -n centos-backgrounds
-%license COPYING CC-BY-2.0
+%license COPYING CC-BY-2.0 GPLv3
 %{_datadir}/backgrounds/*
 %{_datadir}/gnome-background-properties/*
 %{_datadir}/wallpapers/*
