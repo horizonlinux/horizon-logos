@@ -6,21 +6,7 @@ Summary:    Horizon-related icons and pictures
 Group:      System Environment/Base
 License:    GPLv3 AND CC-BY-2.0
 URL:        https://github.com/horizonlinux/horizon-logos
-Source0:    anaconda
-Source1:    backgrounds
-Source2:    bootloader
-Source3:    fedora
-Source4:    firstboot
-Source5:    icons
-Source6:    ipa
-Source7:    pixmaps
-Source8:    plymouth
-Source9:    testpage
-Source10:   wallpapers
-Source11:   fedora-logo.ico
-Source12:   CC-BY-2.0
-Source13:   GPLv3
-Source14:   COPYING
+Source0:    https://github.com/horizonlinux/horizon-logos/archive/refs/tags/100.4.tar.gz
 
 Obsoletes:  centos-logos < 90.4-1
 Provides:   system-logos = %{version}-%{release}
