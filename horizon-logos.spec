@@ -102,8 +102,8 @@ install -p -m 644 wallpapers/WarsawBlueHour/contents/screenshot.jpg $RPM_BUILD_R
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/images/
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/images/
-ln -s $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/WarsawBlueHour.jpg $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/images/4725x2658.jpg
-ln -s $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/ZlataPraha.jpg $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/images/5755x3369.jpg
+install -p -m 644 $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/WarsawBlueHour.jpg $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/images/4725x2658.jpg
+install -p -m 644 $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/ZlataPraha.jpg $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/images/5755x3369.jpg
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/glib-2.0/schemas
 install -p -m 644 backgrounds/10_org.gnome.desktop.background.default.gschema.override $RPM_BUILD_ROOT%{_datadir}/glib-2.0/schemas
