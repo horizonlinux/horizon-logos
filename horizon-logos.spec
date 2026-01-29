@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 Name:       horizon-logos
 Version:    100.4
 Release:    1%{?dist}
