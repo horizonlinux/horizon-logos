@@ -84,22 +84,20 @@ for i in backgrounds/WarsawBlueHour/*.jpg; do
 done
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/
-for i in wallpapers/ZlataPraha/*; do
+for i in wallpapers/ZlataPraha/*.json; do
   install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/
 done
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/
-for i in wallpapers/WarsawBlueHour/*; do
+for i in wallpapers/WarsawBlueHour/*.json; do
   install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/
 done
 
-for i in wallpapers/ZlataPraha/contents/*.jpg; do
-  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/backgrounds/ZlataPraha/contents/
-done
 
-for i in wallpapers/WarsawBlueHour/contents/*.jpg; do
-  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/backgrounds/WarsawBlueHour/contents/
-done
+mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/
+mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/
+install -p -m 644 wallpapers/ZlataPraha/contents/screenshot.jpg $RPM_BUILD_ROOT%{_datadir}/backgrounds/ZlataPraha/contents/
+install -p -m 644 wallpapers/WarsawBlueHour/contents/screenshot.jpg $RPM_BUILD_ROOT%{_datadir}/backgrounds/WarsawBlueHour/contents/
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/images/
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/images/
@@ -247,6 +245,10 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %dir %{_datadir}/plymouth/
 %dir %{_datadir}/plymouth/themes/
 %dir %{_datadir}/wallpapers/
+%dir %{_datadir}/wallpapers/ZlataPraha/
+%dir %{_datadir}/wallpapers/ZlataPraha/contents
+%dir %{_datadir}/wallpapers/WarsawBlueHour/
+%dir %{_datadir}/wallpapers/WarsawBlueHour/contents
 
 %files httpd
 %license COPYING CC-BY-2.0 GPLv3
