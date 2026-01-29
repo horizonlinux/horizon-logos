@@ -96,8 +96,8 @@ done
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/
-install -p -m 644 wallpapers/ZlataPraha/contents/screenshot.jpg $RPM_BUILD_ROOT%{_datadir}/backgrounds/ZlataPraha/contents/
-install -p -m 644 wallpapers/WarsawBlueHour/contents/screenshot.jpg $RPM_BUILD_ROOT%{_datadir}/backgrounds/WarsawBlueHour/contents/
+install -p -m 644 wallpapers/ZlataPraha/contents/screenshot.jpg $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/
+install -p -m 644 wallpapers/WarsawBlueHour/contents/screenshot.jpg $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/images/
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/images/
