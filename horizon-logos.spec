@@ -4,7 +4,7 @@ Release:    1%{?dist}
 Summary:    Horizon-related icons and pictures
 
 Group:      System Environment/Base
-Licence:    GPLv3 CC-BY-2.0
+License:    GPLv3 AND CC-BY-2.0
 URL:        https://github.com/horizonlinux/horizon-logos
 Source0:    anaconda
 Source1:    backgrounds
