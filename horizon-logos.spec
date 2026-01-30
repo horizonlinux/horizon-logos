@@ -105,10 +105,10 @@ install -p -m 644 wallpapers/WarsawBlueHour/contents/screenshot.jpg $RPM_BUILD_R
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/images/
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/images/
 for i in backgrounds/ZlataPraha/*.jpg; do
-  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/images/5755x3369.jpg
+  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/images/wallpaper.jpg
 done
 for i in backgrounds/WarsawBlueHour/*.jpg; do
-  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/images/4725x2658.jpg
+  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/images/wallpaper.jpg
 done
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/glib-2.0/schemas
