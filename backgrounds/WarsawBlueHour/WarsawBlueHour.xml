@@ -5,8 +5,8 @@
         <name>Warsaw Blue Hour</name>
         <name xml:lang="cs">Varšavská modrá hodina</name>
         <name xml:lang="pl">Warszawska błękitna godzina</name>
-        <filename>/usr/share/backgrounds/WarsawBlueHour/WarsawBlueHour.jpg</filename>
-        <filename-dark>/usr/share/backgrounds/WarsawBlueHour/WarsawBlueHour.jpg</filename-dark>
+        <filename>/usr/share/backgrounds/WarsawBlueHour/wallpaper.jpg</filename>
+        <filename-dark>/usr/share/backgrounds/WarsawBlueHour/wallpaper.jpg</filename-dark>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#000000</pcolor>
