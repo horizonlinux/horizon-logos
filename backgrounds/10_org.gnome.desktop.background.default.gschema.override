@@ -1,6 +1,6 @@
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/ZlataPraha/ZlataPraha.jpg'
-picture-uri-dark='file:///usr/share/backgrounds/WarsawBlueHour/WarsawBlueHour.jpg'
+picture-uri='file:///usr/share/backgrounds/ZlataPraha/wallpaper.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/WarsawBlueHour/wallpaper.jpg'
 picture-options='zoom'
 primary-color='#000000000000'
 secondary-color='#000000000000'
