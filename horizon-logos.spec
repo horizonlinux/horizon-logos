@@ -2,7 +2,7 @@
 
 Name:       horizon-logos
 Version:    100.4
-Release:    2%{?dist}
+Release:    3%{?dist}
 Summary:    Horizon-related icons and pictures
 
 Group:      System Environment/Base
@@ -78,12 +78,12 @@ Horizon-related desktop backgrounds
 %install
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/backgrounds/ZlataPraha/
 for i in backgrounds/ZlataPraha/*.jpg; do
-  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/backgrounds/ZlataPraha/
+  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/backgrounds/ZlataPraha/wallpaper.jpg
 done
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/backgrounds/WarsawBlueHour/
 for i in backgrounds/WarsawBlueHour/*.jpg; do
-  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/backgrounds/WarsawBlueHour/
+  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/backgrounds/WarsawBlueHour/wallpaper.jpg
 done
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/
@@ -96,7 +96,6 @@ for i in wallpapers/WarsawBlueHour/*.json; do
   install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/
 done
 
-
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/
 install -p -m 644 wallpapers/ZlataPraha/contents/screenshot.jpg $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/
@@ -105,10 +104,10 @@ install -p -m 644 wallpapers/WarsawBlueHour/contents/screenshot.jpg $RPM_BUILD_R
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/images/
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/images/
 for i in backgrounds/ZlataPraha/*.jpg; do
-  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/images/wallpaper.jpg
+  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/wallpapers/ZlataPraha/contents/images/5755x3369.jpg
 done
 for i in backgrounds/WarsawBlueHour/*.jpg; do
-  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/images/wallpaper.jpg
+  install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/wallpapers/WarsawBlueHour/contents/images/4725x2658.jpg
 done
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/glib-2.0/schemas
