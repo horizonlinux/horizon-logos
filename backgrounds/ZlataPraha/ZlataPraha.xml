@@ -8,8 +8,8 @@
         <name xml:lang="en_US">Golden Prague</name>
         <name xml:lang="cs">Zlatá Praha</name>
         <name xml:lang="pl">Złota Praga</name>
-        <filename>/usr/share/backgrounds/ZlataPraha/ZlataPraha.jpg</filename>
-        <filename-dark>/usr/share/backgrounds/ZlataPraha/ZlataPraha.jpg</filename-dark>
+        <filename>/usr/share/backgrounds/ZlataPraha/wallpaper.jpg</filename>
+        <filename-dark>/usr/share/backgrounds/ZlataPraha/wallpaper.jpg</filename-dark>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#000000</pcolor>
