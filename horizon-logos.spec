@@ -2,7 +2,7 @@
 
 Name:       horizon-logos
 Version:    100.4
-Release:    3%{?dist}
+Release:    4%{?dist}
 Summary:    Horizon-related icons and pictures
 
 Group:      System Environment/Base
@@ -287,5 +287,8 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
+* Sat Jan 31 2026 Marcel Mrówka <micro.mail88@gmail.com>
+- Update Anaconda icon
+
 * Thu Jan 29 2026 Marcel Mrówka <micro.mail88@gmail.com>
 - package created, based off centos-logos
