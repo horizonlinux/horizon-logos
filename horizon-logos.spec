@@ -2,7 +2,7 @@
 
 Name:       horizon-logos
 Version:    100.4
-Release:    4%{?dist}
+Release:    5%{?dist}
 Summary:    Horizon-related icons and pictures
 
 Group:      System Environment/Base
@@ -141,7 +141,7 @@ done
 
 # The Plymoth spinner theme Fedora logo bits
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/plymouth/themes/spinner
-install -p -m 644 pixmaps/fedora-gdm-logo.png $RPM_BUILD_ROOT%{_datadir}/plymouth/themes/spinner/watermark.png
+install -p -m 644 pixmaps/fedora-logo-small.png $RPM_BUILD_ROOT%{_datadir}/plymouth/themes/spinner/watermark.png
 
 for size in 16x16 22x22 24x24 32x32 36x36 48x48 96x96 256x256 ; do
   mkdir -p $RPM_BUILD_ROOT%{_datadir}/icons/hicolor/$size/apps
