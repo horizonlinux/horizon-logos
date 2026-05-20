@@ -2,7 +2,7 @@
 
 Name:       horizon-logos
 Version:    100.4
-Release:    5%{?dist}
+Release:    6%{?dist}
 Summary:    Horizon-related icons and pictures
 
 Group:      System Environment/Base
@@ -64,7 +64,6 @@ Provides:  system-backgrounds = %{version}-%{release}
 Provides:  system-backgrounds-compat = %{version}-%{release}
 Provides:  system-backgrounds-gnome = %{version}-%{release}
 Provides:  system-backgrounds-kde = %{version}-%{release}
-Requires:  horizon-logos = %{version}-%{release}
 
 %description -n horizon-backgrounds
 Horizon-related desktop backgrounds
